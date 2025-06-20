@@ -36,6 +36,7 @@ class CoursesController < ApplicationController
 
   # PATCH/PUT /courses/1 or /courses/1.json
   def update
+    asdfkalsdkhf
     respond_to do |format|
       if @course.update(course_params)
         format.html { redirect_to @course, notice: "Course was successfully updated." }
